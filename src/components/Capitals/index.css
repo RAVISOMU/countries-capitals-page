@@ -1,0 +1,121 @@
+.capitals-app-bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capitals-app-card {
+  background-color: #ffffff;
+  width: 96%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .capitals-app-card {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .capitals-app-card {
+    width: 60%;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.select-input {
+  height: 36px;
+  width: 90px;
+  padding: 4px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  margin-right: 5px;
+  outline: none;
+}
+
+.label {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 14px;
+}
+
+.capital {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .label {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .select-input {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .capital {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .select-input {
+    height: 42px;
+    width: 150px;
+    font-size: 20px;
+    margin-right: 12px;
+  }
+
+  .label {
+    font-size: 20px;
+  }
+
+  .capital {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .select-input {
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+    margin-right: 16px;
+  }
+
+  .label {
+    font-size: 26px;
+  }
+
+  .capital {
+    font-size: 36px;
+  }
+}
